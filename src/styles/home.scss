@@ -1,0 +1,28 @@
+@import 'color';
+
+header{
+  text-align: center;
+  padding: 40px;
+  margin: 0 auto;
+
+  h1{
+    color: $color-grayish;
+    font-weight: 200;
+    font-size: 35px;
+  }
+
+  h1 + h1{
+    color: $color-very-dark;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  
+
+  p{
+    color: $color-grayish;
+    font-weight: 200;
+    width: 500px;
+    margin: 15px auto;
+    margin-bottom: 0;
+  }
+}

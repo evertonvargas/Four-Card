@@ -1,0 +1,124 @@
+@media (min-width: 935px) and (max-width: 1050px) {
+  .main-content{
+  .card1, .card2, .card3, .card4{
+    width: 270px;
+  }
+}
+}
+
+@media (min-width: 430px) and (max-width: 935px) {
+
+  .main-content{
+    margin: 30px 20px;
+    padding: 10px;
+
+    header{
+      padding: 20px 0 40px;
+
+      h1{
+        font-size: 25px;
+      }
+    
+      h1 + h1{
+        font-size: 25px;
+      }
+      
+      p{
+        flex: 1;
+        max-width: 95%;
+      }
+    }
+
+    main{
+      flex-direction: column;
+      margin: 20px;
+
+      .card1, .card4{
+        margin: 0px;
+      }
+
+      .card1, .card2, .card3, .card4{
+        width: 350px;
+        padding: 30px;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 375px) and (max-width: 430px) {
+
+  .main-content{
+    margin: 30px 20px;
+    padding: 10px;
+
+    header{
+      padding: 20px 0 40px;
+
+      h1{
+        font-size: 25px;
+      }
+    
+      h1 + h1{
+        font-size: 25px;
+      }
+      
+      p{
+        flex: 1;
+        max-width: 95%;
+      }
+    }
+
+    main{
+      flex-direction: column;
+      margin: 20px;
+
+      .card1, .card4{
+        margin: 0px;
+      }
+
+      .card1, .card2, .card3, .card4{
+        width: 300px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 375px) {
+
+  .main-content{
+    margin: 30px 20px;
+    padding: 10px;
+
+    header{
+      padding: 20px 0 40px;
+
+      h1{
+        font-size: 23px;
+      }
+    
+      h1 + h1{
+        font-size: 23px;
+      }
+      
+      p{
+        flex: 1;
+        max-width: 100%;
+      }
+    }
+
+    main{
+      flex-direction: column;
+
+      .card1, .card4{
+        margin: 0px;
+      }
+
+      .card1, .card2, .card3, .card4{
+        width: 270px;
+      }
+    }
+  }
+}
+

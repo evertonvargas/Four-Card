@@ -1,70 +1,84 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+ <a href="#rocket-frontend-mentor-four-card">Project</a> •
+ <a href="#camera-screenshot">Screenshot</a> •
+ <a href="#globe_with_meridians-links">Links</a> •
+ <a href="#hammer_and_wrench-technologies">Technologies</a> •
+ <a href="#books-what-i-learned">Learned</a> •
+ <a href="#arrow_forward-run">Run</a> •
+ <a href="#boy-author">Author</a>
+ </div>
 
-## Available Scripts
+## :rocket: **Frontend Mentor - Four card**
 
-In the project directory, you can run:
+This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-### `yarn start`
+## :camera: **Screenshot**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<img src="./src/assets/images/website.JPG" alt="My website" width="800">
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :globe_with_meridians: **Links**
 
-### `yarn build`
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :hammer_and_wrench: **Technologies**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Html5
+- Flexbox
+- [Sass](https://sass-lang.com/) - CSS Preprocessor 
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :books: **What I learned**
 
-### `yarn eject`
+Learned how to pass content to a component.I also applied Sass to the site.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```js
+<Card title={"card1"}>
+    <h1>Supervisor</h1>
+    <p>Monitors activity to identify project roadblocks</p>
+    <img src={supervisorImg} alt="Supervisor" />
+</Card>
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```js
+export function Card({title, children}){
+  return(
+    <div className={title}>
+      {children}
+    </div>
+  )
+}
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## :arrow_forward: **Run**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To run the project you need to clone or download this repository, have the Node Package Manager (NPM) or the YARN Package Manager installed (YARN).
 
-## Learn More
+```bash
+$ git clone https://github.com/evertonvargas/Project.git
+$ cd letmeask
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Follow the steps below:
+```bash
+# Install the dependencies
+$ yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Start the project
+$ yarn start
+```
+The app will be available for access on your browser at http://localhost:3000
+## :boy: **Author**
 
-### Code Splitting
+<a href="https://github.com/evertonvargas">
+  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/84715778?s=60&v=4" width="100px" alt=""/>
+</a>
+<br />
+<a href="https://www.linkedin.com/in/everton-vargas/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a><br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

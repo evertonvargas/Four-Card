@@ -1,0 +1,55 @@
+@import "color";
+
+@mixin card() {
+  background: $color-light-gray;
+  padding: 25px ;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 5px 5px 15px rgba(44, 44, 44, 0.15);
+  width: 320px;
+  margin: 30px 15px;
+
+  > p {
+    color: $color-grayish;
+    font-weight: 200;
+  }
+
+  > img {
+    align-self: flex-end;
+    margin-top: 15px;
+  }
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card1 {
+    border-top: 7px solid $color-cyan;
+    @include card();
+  }
+
+  >div{
+    .card2{
+      border-top: 7px solid $color-red;
+      @include card();
+    }
+  
+    .card3{
+      border-top: 7px solid $color-orange;
+      @include card();
+    }
+
+  }
+
+  .card4{
+    border-top: 7px solid $color-blue;
+    @include card();
+  }
+}
+
+@import "mediaPhone";
+
