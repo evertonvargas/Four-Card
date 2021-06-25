@@ -29,7 +29,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 - Flexbox
 - [Sass](https://sass-lang.com/) - CSS Preprocessor 
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
 
 ## :books: **What I learned**
