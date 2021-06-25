@@ -21,8 +21,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## :globe_with_meridians: **Links**
 
-- Url Heroku: [Four-Card](https://fourcard.herokuapp.com/)
-- Url Vercel: [Four-Card](https://four-card-dusky.vercel.app/)
+- Solutions Url: [Four-Card](https://four-card-dusky.vercel.app/)
 
 ## :hammer_and_wrench: **Technologies**
 
