@@ -16,7 +16,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 ## :camera: **Screenshot**
 
 
-<img src="./src/assets/images/website.JPG" alt="My website" width="800">
+<img src="https://github.com/evertonvargas/Four-Card/blob/main/src/assets/images/website.JPG" alt="My website" width="800">
 
 
 ## :globe_with_meridians: **Links**
